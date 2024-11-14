@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century, sans-serif;
+}
+
+body {
+    background-color: #F3F4E6;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B5C5A5;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar .contact {
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #555;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #E7EAD9;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: #7A9A62;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-item h3 {
+    color: #5D7948;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hobbies_content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.hobbies_content2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.hobbies_content .text_ski {
+    max-width: 260px;
+    text-align: justify;
+}
+
+.hobbies_content2 .text_voleyball {
+    max-width: 260px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.ski_photo {
+    width: 400px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.vol_photo {
+    width: 1750px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.h3_local_title {
+    color: #5D7948;
+    font-size: 18px;
+}
+
+.h3_local_title2 {
+    color: #5D7948;
+    font-size: 18px;
+
+}
+
+#scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px 20px;
+    background-color: #5D7948; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #scrollToTopButton:hover {
+    color:#000000;
+  }
