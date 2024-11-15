@@ -1,1 +1,1 @@
-ni smartphons please!!!
+no smartphons please!!!
